@@ -1,0 +1,21 @@
+/*------css-demo-------*/
+
+/*---generate own colors for homework---*/
+
+/*---insert colors and pick font for the css-demo here----*/
+
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+
+  }
+  body{ background-color:beige;
+
+}
