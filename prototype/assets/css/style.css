@@ -1,0 +1,22 @@
+/*----css for prototype HTML assignment----*/
+/**/
+/**/
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  header{
+    background-color: chocolate;
+    text-align: center;
+
+  }
