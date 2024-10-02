@@ -17,5 +17,94 @@ html {
 
   }
   body{ background-color:beige;
-
+    margin:0;
 }
+
+header.primary{
+  background-color: #3b638b;
+  color: #ffffff;
+  text-align: center;
+  text-shadow:1px 1px #000000;
+  /*long form*/
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  /*Single value short hand*/
+  padding: 40px;
+      /* T,R,B,L */
+      padding: 20px 40px 20px 40px;
+
+    /* two value top/bottom 20,  l/r 40*/
+    padding: 20px 40px;
+}
+
+
+header.primary h1{ 
+background-color: #3b638b;
+font-size:2.4rem;
+margin: 20px 0 0;
+}
+
+/* how specify the link color*/
+header.primary h1 a{
+  color:white;
+text-decoration:none;
+}
+
+header.primary h2{
+  font-size: 1.3rem;
+  margin:0;
+}
+
+
+header.primary nav{}
+header.primary nav ul{
+
+  display:flex;
+  flex-direction:row;
+  padding:0;
+justify-content:space-evenly;
+ header.primary nav ul li{
+  list-style-type:none;
+
+ }
+  header.primary nav ul li a{
+    color:#ffffff;
+    text-decoration:none;
+    /*this is border properties: pixle, type, and color*/
+    border:1px solid #c0c0c0;
+    /*adding space inside the border*/
+    padding: 7.5px 10px;
+    /* this is to make it transparent: first three are the colors and the last is alpha(transparency)*/
+    background-color: rgba(0,0,0,.4);
+    /* makes the border round*/
+    border-radius:20px;
+    transistion:.4s;
+  }
+
+
+  header.primary nav ul li a:hover{ 
+
+    background-color:rgba(0,0,0,.8);
+  }
+
+
+
+
+
+
+  
+
+  /*------media Queries-----*/
+  @media screen and (max-width: 560px){ 
+
+    header.primary nav ul{ 
+      flex-direction:column;
+      gap:10px;
+     max-width:200px;
+     margin:0 auto;
+    }
+ 
+
+  }
