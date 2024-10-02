@@ -1,5 +1,8 @@
 /*----css for prototype HTML assignment----*/
-/**/
+/*color codes:  
+main= 313975
+secondary=080E3B
+words= white*/
 /**/
 /*  ---------------Box Sizing-----------------  */
 
@@ -13,10 +16,15 @@ html {
   }
   body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+background-color:#A8383B;
 
+
+
+.container{text-indent: 30x;
   }
   header{
-    background-color: chocolate;
+background-color:#A8383B;
     text-align: center;
-
+  
   }
