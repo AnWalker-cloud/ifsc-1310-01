@@ -58,7 +58,7 @@ header.primary h2{
 }
 
 
-header.primary nav{}
+/*header.primary nav{}*/
 header.primary nav ul{
 
   display:flex;
@@ -80,7 +80,7 @@ justify-content:space-evenly;
     background-color: rgba(0,0,0,.4);
     /* makes the border round*/
     border-radius:20px;
-    transistion:.4s;
+    transition:.4s;
   }
 
 
@@ -97,7 +97,7 @@ justify-content:space-evenly;
   
 
   /*------media Queries-----*/
-  @media screen and (max-width: 560px){ 
+  @media screen and (max-width: 560px) { 
 
     header.primary nav ul{ 
       flex-direction:column;
