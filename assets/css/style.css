@@ -1,8 +1,16 @@
 body{
     background-color:cornflowerblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 img{
     max-width: 800px;
     height: auto;
     width: 700px;
+}
+h1{border-style:groove;
+    border-radius:5px;
+    display:flex;
+    border-color: darkslateblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
