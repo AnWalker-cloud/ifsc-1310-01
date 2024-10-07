@@ -16,7 +16,27 @@ html {
     box-sizing: inherit;
 
   }
-  body{ background-color:beige;
+
+
+
+  /*---------repsonsive images----------------*/
+  img{
+    max-width 100%;
+  }
+
+  /* ----------Utility classes--------------*/
+
+.container{
+  width:80vw;/*viewport height*/
+  max-width:960px;
+  margin: 40px auto;
+
+}/* percentage for nested attributes*/
+
+
+
+
+    body{ background-color:beige;
     margin:0;
 }
 
@@ -91,11 +111,45 @@ justify-content:space-evenly;
 
 
 
+#content h2{
+  color:#3b638b;
+border-bottom:1px dotted #3b638b;
+line-height:1.8;/*- gives spacing for the words within the content.-*/
+}
 
 
 
-  
+#blog{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap:2rem;
+}
+  #blog article.post{
+   box-shadow: :0 4px 8px rgba(0,0,0,.6); /* similar to */ 
+   padding:10px
+   border-radius: 4px;
+   font-size: .8rem;
+  }
+  #blog figure{
+    margin:0;
+  }
 
+  #blog figcaption, time.post-date{
+text-transform:uppercase;
+color:blue
+  }
+  #blog .post a {
+  color:bisque
+ }
+
+
+
+
+ #blog article.post:hover{
+  box-shadow:0 8 16px rgba(0,0,0,.6);
+ transition:.4s;
+ }
   /*------media Queries-----*/
   @media screen and (max-width: 560px) { 
 
