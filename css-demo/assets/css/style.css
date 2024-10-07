@@ -8,11 +8,13 @@
 /*  ---------------Box Sizing-----------------  */
 
 html {
+
     box-sizing: border-box;
 }
   *,
   *:before,
   *:after {
+
     box-sizing: inherit;
 
   }
@@ -20,6 +22,7 @@ html {
 
 
   /*---------repsonsive images----------------*/
+
   img{
     max-width 100%;
   }
@@ -27,69 +30,93 @@ html {
   /* ----------Utility classes--------------*/
 
 .container{
+
   width:80vw;/*viewport height*/
   max-width:960px;
   margin: 40px auto;
 
-}/* percentage for nested attributes*/
+  }/* percentage for nested attributes*/
 
 
+/*body styling*/
+    body{ 
 
-
-    body{ background-color:beige;
+      background-color:beige;
+    font-family: sans-serif; 
     margin:0;
-}
 
+  }
+
+/*header primary*/
 header.primary{
+
   background-color: #3b638b;
   color: #ffffff;
   text-align: center;
   text-shadow:1px 1px #000000;
-  /*long form*/
+
+  /*long form(padding)*/
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
-  /*Single value short hand*/
-  padding: 40px;
-      /* T,R,B,L */
-      padding: 20px 40px 20px 40px;
-
+  
+  padding: 20px 40px;/*two value short hand*/
+    
     /* two value top/bottom 20,  l/r 40*/
     padding: 20px 40px;
-}
 
+  }
 
+/*Header Primary H1*/
 header.primary h1{ 
+
 background-color: #3b638b;
 font-size:2.4rem;
 margin: 20px 0 0;
-}
 
-/* how specify the link color*/
+  }
+
+/*Primary H1 Link*/
 header.primary h1 a{
+
   color:white;
 text-decoration:none;
-}
 
+  }
+
+/*header Primayr H2*/
 header.primary h2{
+
   font-size: 1.3rem;
   margin:0;
-}
+
+  }
 
 
-/*header.primary nav{}*/
+/*Navigation Styling*/
+
+header.primary nav{
+  font-size: 1.3rem;
+  margin: 0;
+  }
+
 header.primary nav ul{
 
-  display:flex;
-  flex-direction:row;
-  padding:0;
-justify-content:space-evenly;
- header.primary nav ul li{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-evenly;
+  }
+
+  header.primary nav ul li{
+
   list-style-type:none;
 
- }
+  }
+
   header.primary nav ul li a{
+
     color:#ffffff;
     text-decoration:none;
     /*this is border properties: pixle, type, and color*/
@@ -98,58 +125,90 @@ justify-content:space-evenly;
     padding: 7.5px 10px;
     /* this is to make it transparent: first three are the colors and the last is alpha(transparency)*/
     background-color: rgba(0,0,0,.4);
+    border-radius: 20px;
     /* makes the border round*/
   
     transition:.4s;
   }
 
 
-  header.primary nav ul li a:hover{ 
+  header.primary nav ul li a:hover { 
 
-    background-color:rgba(0,0,0,.8);
+  background-color:rgba(0,0,0,.8);
+
   }
 
 
+
+
+
+
+
+
+
+
+  /*--------Content-------*/
+  #content{
+
+    line-height: 1.4;
+
+  }
 
 #content h2{
-  color:#3b638b;
-border-bottom:1px dotted #3b638b;
-line-height:1.8;/*- gives spacing for the words within the content.-*/
-}
+
+    color:#3b638b;
+    border-bottom:1px dotted #3b638b;
+    line-height:1.8;/*- gives spacing for the words within the content.-*/
+
+  }
 
 
-
+/*blog section*/
 #blog{
-  display:flex;
+
+  display: flex;
   justify-content: space-around;
   flex-direction: row;
-  gap:2rem;
+  gap: 2rem;
 }
-  #blog article.post{
-   box-shadow: :0 4px 8px rgba(0,0,0,.6); /* similar to */ 
-   padding:10px
-   border-radius: 4px;
-   font-size: .8rem;
-  }
-  #blog figure{
-    margin:0;
-  }
 
-  #blog figcaption, time.post-date{
-text-transform:uppercase;
-color:blue
-  }
+  #blog article.post{
+   box-shadow: 0 4px 8px rgba(0,0,0,.6);
+   padding: 10px
+   border-radiusx: 4px;
+   font-size: 0.8rem;
+}
+
+  #blog figure{
+
+   margin:0;
+
+}
+
+  #blog figcaption, 
+  time.post-date {
+
+   text-transform:uppercase;
+   font-size: 0.6rem;
+   text-align: center;
+   color:blue;
+
+}
   #blog .post a {
-  color:bisque
- }
+
+   color:#3b638b;
+
+}
 
 
 
 
  #blog article.post:hover{
   box-shadow:0 8 16px rgba(0,0,0,.6);
- transition:.4s;
+  transition:.4s;
+
  }
+
   /*------media Queries-----*/
   @media screen and (max-width: 560px) { 
 
@@ -159,6 +218,8 @@ color:blue
      max-width:200px;
      margin:0 auto;
     }
- 
+ header.prmary nav a{
+  display: block;
+ }
 
   }
