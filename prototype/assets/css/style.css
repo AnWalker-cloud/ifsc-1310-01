@@ -15,28 +15,53 @@ html {
     box-sizing: inherit;
   }
 
+
+/*body*/
   body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.6;
-background-color:#A8383B;
-
-
-.container {text-indent: 30px;
+    line-height: 1.8;
+    background-color:#A8383B;
   }
 
-  header{
+
+/*paragraphs*/
+p {
+  text-indent: 30px;
+  }
+/*headers*/
+h1,h2,h3,h4,h5,h6{
+text-align: center;
+
 background-color:#431012;
+text-align: center;
+padding: 20px;  
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration:solid
+border:2px solid #431012;
+border-radius:20px;
+
+}
+
+/*primary header*/
+  header{
+
+    background-color:#431012;
     text-align: center;
     padding: 20px;  
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration:solid
+    border:2px solid #431012;
+    border-radius:20px;
+    
 
   }
 
 
   /*navigation styles*/
   nav ul{
+
     list-style-type:none;
     margin:0;
     padding:0;
@@ -45,11 +70,12 @@ background-color:#431012;
     background-color:#431012
   }
 
-nav ul li{ margin-right:10px;
+nav ul li{ margin-right:20px;
+  padding:7.5px 10px;
 
 }
 
- nav ul li a{
+ .container nav ul li a{
   display:flex;
   flex-direction:row;
   justify-content: center;
