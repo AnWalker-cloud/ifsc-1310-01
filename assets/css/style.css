@@ -17,12 +17,30 @@ text-indent:20px;
 h1{border-style:groove;
     border-radius:5px;
     display:flex;
-    border-color: darkslateblue;
+    border-color: #483d8b;
     font-family:Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
-
+background-color: #483d8b;
     margin: 10,0,0;
 
 }
-nav ul li{margin: 20px;
+
+
+
+/*list of the projects*/
+nav ul li{
+    margin:30px;
+    list-style-type:none;
+    border-style:solid;
+    border:1px;
+    padding:20;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
+   
+}
+nav ul li a{
+    padding:0px;
+    text-decoration:underline;
+    text-color:white;
 }
