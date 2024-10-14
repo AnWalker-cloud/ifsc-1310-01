@@ -37,9 +37,33 @@ html {
 
   }/* percentage for nested attributes*/
 
+.img-right{
 
+float:right;
+padding:5px;
+margin:10px o 10px 20px;
+border-radius:50px;
 
-  /*--------------globalstyles-------------------*/
+}
+.img-left{
+
+  float:left;
+  padding:5px;
+  margin:10px 20px 10px;
+  border-radius:50px;
+
+  }
+  .img-center{
+
+    display:block;
+    margin: 20px auto;
+    padding:5px;
+   margin:10px o 10px 20px;
+   border-radius:50px;
+
+  }
+  /*--------------Global Styles-------------------*/
+
 /*body styling*/
     body{ 
 
@@ -49,7 +73,7 @@ html {
 
   }
 
-/*--------header primary-----*/
+  /*---------------Header Primary------------------*/
 header.primary{
 
   background-color: #3b638b;
@@ -87,7 +111,7 @@ text-decoration:none;
 
   }
 
-/*-----header Primayr H2------*/
+/*-----header Primary H2------*/
 header.primary h2{
 
   font-size: 1.3rem;
@@ -165,19 +189,23 @@ header.primary nav ul{
   }
 
 
-/*blog section*/
+/*----------blog section-----------*/
 #blog{
 
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   gap: 2rem;
+  border-top:1px solid #cccc;
+  padding:40px 0 0 0;
+  border-bottom:1px solid #cccc;
+  
 }
 
   #blog article.post{
    box-shadow: 0 4px 8px rgba(0,0,0,.6);
    padding: 10px
-   border-radiusx: 4px;
+   border-radius: 4px;
    font-size: 0.8rem;
 }
 
@@ -203,7 +231,14 @@ header.primary nav ul{
 }
 
 
-
+#practice h2{
+  color:#3b638b
+  border-bottom: 1px dotted #cccc;
+}
+#practice h3{
+  border-left:5px solid  #3b638b;
+  padding: 5px o 5px 10px;
+}
 
  #blog article.post:hover{
   box-shadow:0 8 16px rgba(0,0,0,.6);
@@ -211,7 +246,67 @@ header.primary nav ul{
 
  }
 
+#practice a{
+  color:aqua;
 
+}
+#practice a:hover{
+  text-decoration: none;
+}
+
+table{
+  width:100%;
+  border: 1px;
+  border-collapse: collapse;
+}
+
+caption{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+thead{}
+
+tr{
+  tr:nth-child(even){
+background-color rgba(0,0,0,0.4)
+  }
+  
+}
+
+tr:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+
+td{
+  border: 1 px solid #c0c0c0;
+  padding:5px;
+  
+}
+
+td:nth-child(n+2){
+  text-align: right;
+}
+
+
+#practice ol{
+  list-style-type:lower-decimal;
+}
+
+
+#practice ul ul{
+  list-style-type:square;
+}
+#practice dl dt{
+font-weight:bold;
+}
+#practice dd{
+  margin:0;
+}
+
+dd + dt{
+margin: top 20px;
+}
 
  aside[role="complementary"] {
   background-color: #172635;
@@ -230,19 +325,26 @@ header.primary nav ul{
   margin-top:20px;
   text-align:right;
  }
- aside article.widget footer{
-  display
- }
+ 
+
+
+
+
+
+
+
+
+
   /*------media Queries-----*/
-  @media screen and (max-width: 560px) { 
+  @media screen and (max-width: 680px) { 
 
     header.primary nav ul{ 
       flex-direction:column;
-      gap:10px;
-     max-width:200px;
+      gap:120px;
+     max-width:300px;
      margin:0 auto;
     }
- header.prmary nav a{
+ header.primary nav a{
   display: block;
  }
 
