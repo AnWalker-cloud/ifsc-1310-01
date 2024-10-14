@@ -38,6 +38,8 @@ html {
   }/* percentage for nested attributes*/
 
 
+
+  /*--------------globalstyles-------------------*/
 /*body styling*/
     body{ 
 
@@ -209,6 +211,28 @@ header.primary nav ul{
 
  }
 
+
+
+ aside[role="complementary"] {
+  background-color: #172635;
+  color:#ffffff; 
+  padding:40px 0;
+ }
+ aside.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:40px;
+ }
+ aside article.widget a{
+  color:#ffffff;
+  display:block;
+  margin-top:20px;
+  text-align:right;
+ }
+ aside article.widget footer{
+  display
+ }
   /*------media Queries-----*/
   @media screen and (max-width: 560px) { 
 
