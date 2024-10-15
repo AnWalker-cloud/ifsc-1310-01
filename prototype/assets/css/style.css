@@ -3,7 +3,7 @@
 main= #A8383B
 secondary=080E3B
 words= FDE0E1
-/**/
+
 /*  ---------------Box Sizing-----------------  */
 
 html {
@@ -28,6 +28,7 @@ html {
 p {
   text-indent: 30px;
   }
+
 /*headers*/
 h1,h2,h3,h4,h5,h6{
 text-align: center;
@@ -90,9 +91,9 @@ nav ul li{ margin-right:20px;
 
 
 
-
-
-  /**/
+/*images*/
+i
+  /*Media Queries*/
   @media screen  {
     
   }
