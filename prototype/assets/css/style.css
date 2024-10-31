@@ -94,6 +94,4 @@ nav ul li{ margin-right:20px;
 /*images*/
 i
   /*Media Queries*/
-  @media screen  {
-    
-  }
+  @media screen and (max-width: 680px) 

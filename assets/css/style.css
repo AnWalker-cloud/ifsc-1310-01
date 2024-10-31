@@ -1,4 +1,4 @@
-
+/*FOR MAIN PAGE*/
 /*------utility-------*/
 .image-container{
     display:flex;
@@ -9,8 +9,8 @@
   }
 
 .image-container img{
-
-    width:500px;
+    width:50%;
+    max-width: 100%;
     height:auto;
     box-shadow: 5px 5px 15px rgba(0, 0,0, 0.5);
     border-radius: 10px;
