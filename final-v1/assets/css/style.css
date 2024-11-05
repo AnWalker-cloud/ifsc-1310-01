@@ -7,8 +7,38 @@ img {
 /*---BODY STYLING---*/
 body{
     background-color:#273542;
+    word-spacing:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-  }
+  /*---UPPER HEADER---*/
   .upper-header{
-    
+    background-color: #111111;
+    padding:0px;
+    margin:0px;
+    border-bottom: 4px solid #273542;
   }
+
+  h1{
+  
+  }
+  h2{
+    font-size:small;
+  }
+
+  /*---NAVIGATION---*/
+  nav ul{
+    display:flex;
+    justify-content: end;
+  }
+  nav ul li {
+    margin-right: 40px;
+   
+  }
+/*---PARAGRAPHS---*/
+p{
+  text-indent: 10px;
+ line-height: 30px;
+}
+  
+/*---ARTILCLES---*/
