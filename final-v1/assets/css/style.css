@@ -8,6 +8,7 @@ img {
     padding: 5px;
     transition: all 1.0s ease-in-out;
     transform-orgin: center;
+   margin-bottom: 10px;
   }
 
 img:hover{
@@ -58,19 +59,29 @@ p{
   gap:20px;
   padding:20px;
   flex-wrap:wrap;
+  border-top:solid #111111;
+padding-top: 20px;
 }
 
 .article-section{
   flex:1;
-  padding:15px;
+  padding:0px;
   min-width:15px;
-  border: 1px solid #111111;
-  border-radius:8px;
-  background-color:#111111;
+  
+
   word-spacing: normal;
   line-height:40px;
 }
 
+section#article{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+article details[open]{
+  background:black;
+ }
 
 details {
   border: 1px solid #aaa;
