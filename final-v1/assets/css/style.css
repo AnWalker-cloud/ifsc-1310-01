@@ -2,13 +2,14 @@
 /*------RESPONSIVE IMAGES------*/
 img {
     max-width: 30%;
-    height:auto;
+    height:200px;
     border: 3px solid #111111;
     border-radius: 10px;
     padding: 5px;
     transition: all 1.0s ease-in-out;
     transform-orgin: center;
    margin-bottom: 10px;
+   object-fit: cover;
   }
 
 img:hover{
