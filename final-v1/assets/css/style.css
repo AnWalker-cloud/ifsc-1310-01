@@ -1,8 +1,8 @@
 
 /*------RESPONSIVE IMAGES------*/
 img {
-    max-width: 30%;
-    height:200px;
+    max-width: 100%;
+    height:300px;
     border: 3px solid #111111;
     border-radius: 10px;
     padding: 5px;
@@ -17,7 +17,7 @@ img:hover{
   box-shadow:0px 8px 20px rgba(0,0,0,0.3);
   position:relative;
 }
-/*---BODY STYLING---*/
+/*---BODY STYLING FOR HOME---*/
 body{
     background-color:#273542;
     word-spacing:5px;
@@ -27,33 +27,67 @@ body{
   /*---UPPER HEADER---*/
   header{
     background-color: #111111;
-    padding:0px;
+    padding:20px;
     margin:0px;
     border-bottom: 4px solid #273542;
   }
 
+  #intro-desc{
+    font-size:18px;
+    text-indent:2px;
+
+
+  }
 
   h2{
-    font-size:small;
-    padding-top:10px;
+    font-size:20px;
+    margin-bottom:20px
   }
 
+  h1{
+    padding-bottom:20px;
+    padding-right: 30px;
+
+    margin:0px;
+
+   }
   /*---NAVIGATION---*/
   nav ul{
-    display:flex;
-    justify-content:center;
+   list-style-type: none;
+   padding:0px;
+   margin:0px;
+   text-align: center;
+   position: relative;
   }
+
   nav ul li {
-margin:0px 20px;
-  
+   display:inline-block;
+   margin:0 10px;
+   padding:0px;
+
+  }
+
+  nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color:lightgray;
+
   }
 /*---PARAGRAPHS---*/
 p{
   text-indent: 10px;
   line-height: 30px;
+  margin:20px;
+  padding-top: 15px;
+  text-wrap: 10px;
 }
   
-/*---ARTILCLES---*/
+/*---ARTILCLES FOR HOME---*/
 .article-container{
 
   display:flex;
@@ -104,3 +138,4 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
+
