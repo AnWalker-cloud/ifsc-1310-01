@@ -22,6 +22,7 @@ img {
     transform-orgin: center;
     margin-bottom: 10px;
     object-fit: cover;
+
   }
 
 img:hover{
@@ -53,8 +54,11 @@ body{
 
   h2{
     font-size:20px;
-    margin-bottom:20px
-    color:#FFFFFF;
+    margin:20px;
+    color:white;
+    background-color: #111111;
+    text-align: center;
+
   }
 
   h1{
@@ -94,14 +98,16 @@ body{
   }
 /*---PARAGRAPHS---*/
 p{
-  text-indent: 10px;
+  text-indent: 20px;
   line-height: 30px;
-  margin:20px;
+
   padding-top: 20px;
   padding-bottom: 30px;
   text-wrap: 10px;
   color:white;
-  font-size: 18px;
+  font-size: 20px;
+  background-color:#2b3a47;
+ 
   
 }
   
@@ -110,10 +116,11 @@ p{
 
   display:flex;
   gap:20px;
-  padding:20px;
+  padding:40px;
   flex-wrap:wrap;
-  border-top:solid #111111;
-padding-top: 20px;
+  border-bottom:double 10px #496580;
+  border-top: double 10px #496580;
+  padding-top: 20px;
 }
 
 .article-section{
