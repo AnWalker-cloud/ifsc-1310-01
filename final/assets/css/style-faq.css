@@ -12,12 +12,24 @@
     border-bottom: 10px solid#496580;
 
   }
+
   h1{
     padding:20px 30px 20px 40px;
      color:white;
      margin:0px;
  
     }
+
+    #faq{
+      background-color: #111111;
+      margin-top: 20px;
+      margin-bottom:20px;
+      text-align: center;
+      border-bottom: 10px double#496580;
+      border-top: 10px double#496580;;
+    }
+
+  
     
     p{
       text-indent: 10px;
@@ -103,32 +115,5 @@ footer{
 
 
 /*-----------------*/
-details[open] {
-  animation: slideDown 0.3s ease-in-out;
-}
 
-details:not([open]) {
-  animation: slideUp 0.3s ease-in-out;
-}
 
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: scaleY(0);
-  }
-  to {
-    opacity: 1;
-    transform: scaleY(1);
-  }
-}
-
-@keyframes slideUp {
-  from {
-    opacity: 1;
-    transform: scaleY(1);
-  }
-  to {
-    opacity: 0;
-    transform: scaleY(0);
-  }
-}

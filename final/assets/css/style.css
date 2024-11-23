@@ -147,6 +147,8 @@ details {
   border: 1px solid #aaa;
   border-radius: 6px;
   padding: 0.5em 0.5em 0;
+  overflow:hidden;
+  transition: all 0.3s ease;
 }
 details ul{
   list-style-type: none;
@@ -168,6 +170,11 @@ summary {
 
 details[open] {
   padding: 0.5em;
+  max max-height: 300px;
+}
+
+details:not([open]){
+  max-height:200px;
 }
 
 details[open] summary {
