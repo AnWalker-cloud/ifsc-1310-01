@@ -5,7 +5,7 @@ faqs.forEach(faq => {
           if (answer.style.display === 'none'){ 
              answer.style.dislplaly = 'block';
           } else {
-              anser.style.display = 'none';
+              anwser.style.display = 'none';
           }
 
         });
